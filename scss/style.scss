@@ -1,0 +1,669 @@
+@import"./utilities/variables";
+
+@import "./layout/footer";
+@import"./layout/header-index";
+@import"./layout/media320";
+
+
+
+.body-1{
+    background-color: rgb(42, 39, 39);
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    justify-content: center;
+    padding: 7.5vh 15vh 7.5vh 15vh;
+}
+
+.body-2{
+    background-color: rgb(42, 39, 39); 
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    justify-content: center;
+    padding: 7.5vh 15vh 7.5vh 15vh;
+}
+
+.body-3{
+    background-color: rgb(42, 39, 39);
+    justify-content: center;
+    padding: 7.5vh 15vh 7.5vh 15vh; 
+    margin: auto;   
+}
+
+.body-4{
+    background-color: rgb(42, 39, 39);
+}
+
+.body-5{
+    background-color: rgb(42, 39, 39); 
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    justify-content: center;
+    padding: 7.5vh 15vh 7.5vh 15vh;
+    
+}
+
+.header-formulario{
+    color: white;
+}
+
+.main-formulario{
+    color: white;
+}
+
+.mas {
+    color: white;
+}
+
+// .grid{
+//     display: grid;
+//     grid-template-columns: 5% 5% 5% 5% 5%;
+//     width: 80%;
+//     margin: 0 auto;
+//     background-color: lightgreen;
+//     padding: 20px;
+//     border: 1px solid black;
+// }
+
+// .cd{
+//     width: 0px;
+//     height: 150px;
+//     border: 4px solid white;
+//     margin: 15px;
+//     text-align: center;
+//     line-height: 150px;
+//     float: left;
+
+
+.bi{
+    color: greenyellow;
+}
+
+.RS{
+    color: greenyellow;
+}   
+
+.index-h2{
+    color:white;
+}
+h2{
+    color: greenyellow;
+    text-align: left;
+}
+
+h3{
+    color: greenyellow;
+    border-radius: 2%;
+    border-color: black;
+}
+
+.tatto-you{
+    content: url(../asssets/img/tattooyou-1080.png);
+    width: 45vh;
+    height: 35vh;
+    background-position: center;
+    }
+
+.vh-1984{
+    content: url(../asssets/img/vanhalen-1984.jpg);
+    width: 45vh;
+    height: 35vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.VH{
+    color: greenyellow;
+}
+
+
+.index-1{
+    display: flex;
+    flex-wrap: wrap;
+    .img-1{
+    content: url(../asssets/img/tattooyou-1080.png);
+    width: 32vh;
+    height: 32vh;
+    padding: 2vh;
+    margin: auto;
+    }
+    
+    .item-2{
+    content: url(../asssets/img/vanhalen-1984.jpg);
+    width: 32vh;
+    height: 32vh;
+    padding: 2vh;
+    margin: auto;
+
+    }
+    .item-3{
+    content: url(../asssets/img/motley-decade-of-decadence.jpg);
+    width: 32vh;
+    height: 32vh;
+    padding: 2vh;
+    margin: auto;
+
+    }
+    .item-4{
+    content: url(../asssets/img/jm-live-in-los-angeles.jpg);
+    width: 32vh;
+    height: 32vh;
+    padding: 2vh;
+    margin: auto;
+    } 
+    .item-5{
+    content: url(../asssets/img/bon_jovi_new_jersey.jpg);
+    width: 32vh;
+    height: 32vh;
+    padding: 2vh;
+    margin: auto;        
+    }
+    .item-6{
+        content: url(../asssets/img/srv-texas-flood.jpg);
+        width: 32vh;
+        height: 32vh;
+        padding: 2vh;
+        margin: auto;
+    }
+    .item-7{
+        content: url(../asssets/img/u2-all-that-you-can´t-leave-behind.jpg);
+        width: 32vh;
+        height: 32vh;
+        padding: 2vh;
+        margin: auto;
+    }
+    .item-8{
+        content: url(../asssets/img/ramones-it-s-alive.jpg);
+        width: 32vh;
+        height: 32vh;
+        padding: 2vh;
+        margin: auto;
+    }       
+    .item-9{
+        content: url(../asssets/img/voodoo-lounge-uncut.jpg);
+        width: 32vh;
+        height: 32vh;
+        padding: 2vh;
+        margin: auto;
+    }       
+    .item-10{
+        content: url(../asssets/img/g-n-r-use-your-ilusion-2.jpg);
+        width: 32vh;
+        height: 32vh;
+        padding: 2vh;
+        margin: auto;
+    }     
+    .item-11{
+        content: url(../asssets/img/vanhalen-1984.jpg);
+        width: 32vh;
+        height: 32vh;
+        padding: 2vh;
+        margin: auto;
+    }   
+    .item-12{
+        content: url(../asssets/img/motley-decade-of-decadence.jpg);
+        width: 32vh;
+        height: 32vh;
+        padding: 2vh;
+        margin: auto;
+    }
+    .item-13{
+        content: url(../asssets/img/jm-live-in-los-angeles.jpg);
+        width: 32vh;
+        height: 32vh;
+        padding: 2vh;
+        margin: auto;
+    }  
+    .item-14{
+        content: url(../asssets/img/bon_jovi_new_jersey.jpg);
+        width: 32vh;
+        height: 32vh;
+        padding: 2vh;
+        margin: auto;
+    }     
+    .item-15{
+        content: url(../asssets/img/bon_jovi_new_jersey.jpg);
+        width: 32vh;
+        height: 32vh;
+        padding: 2vh;
+        margin: auto;
+    }   
+    .item-16{
+        content: url(../asssets/img/vanhalen-1984.jpg);
+        width: 32vh;
+        height: 32vh;
+        padding: 2vh;
+        margin: auto;
+    }  
+    .item-17{
+        content: url(../asssets/img/motley-decade-of-decadence.jpg);
+        width: 32vh;
+        height: 32vh;
+        padding: 2vh;
+        margin: auto;
+    } 
+    .item-18{
+        content: url(../asssets/img/jm-live-in-los-angeles.jpg);
+        width: 32vh;
+        height: 32vh;
+        padding: 2vh;
+        margin: auto;
+    }     
+    .item-19{
+        content: url(../asssets/img/bon_jovi_new_jersey.jpg);
+        width: 32vh;
+        height: 32vh;
+        padding: 2vh;
+        margin: auto;
+    }
+    .item-20{
+        content: url(../asssets/img/srv-texas-flood.jpg);
+        width: 32vh;
+        height: 32vh;
+        padding: 2vh;
+        margin: auto;
+    } 
+    .item-21{
+        content: url(../asssets/img/u2-all-that-you-can´t-leave-behind.jpg);
+        width: 32vh;
+        height: 32vh;
+        padding: 2vh;
+        margin: auto;
+    }
+    .item-22{
+        content: url(../asssets/img/ramones-it-s-alive.jpg);
+        width: 32vh;
+        height: 32vh;
+        padding:2vh;
+        margin: auto;
+    }  
+    .item-23{
+        content: url(../asssets/img/voodoo-lounge-uncut.jpg);
+        width: 32vh;
+        height: 32vh;
+        padding: 2vh;
+        margin: auto;
+    } 
+    .item-24{
+        content: url(../asssets/img/g-n-r-use-your-ilusion-2.jpg);
+        width: 32vh;
+        height: 32vh;
+        padding: 2vh;
+        margin: auto;
+    }   
+    .item-25{
+        content: url(../asssets/img/oasis-morning-glory.jpg);
+        width: 32vh;
+        height: 32vh;
+        padding: 2vh;
+        margin: auto;
+    }  
+    .item-26{
+        content: url(../asssets/img/nirvana-nevermind.jpg);
+        width: 32vh;
+        height: 32vh;
+        padding: 2vh;
+        margin: auto;
+    }     
+    .item-27{
+        content: url(../asssets/img/pink-floyd-dark-side-of-the-moon.jpg);
+        width: 32vh;
+        height: 32vh;
+        padding: 2vh;
+        margin: auto;
+    }  
+
+    .item-28{
+        content: url(../asssets/img/beatles-sgt-peppers.jpg);
+        width: 32vh;
+        height: 32vh;
+        padding: 2vh;
+        margin: auto;
+    }  
+    .item-29{
+        content: url(../asssets/img/u2-all-that-you-can´t-leave-behind.jpg);
+        width: 32vh;
+        height: 32vh;
+        padding: 2vh;
+        margin: auto;
+    }  
+    .item-30{
+        content: url(../asssets/img/steve-vai-passion-warfare.jpg);
+        width: 32vh;
+        height: 32vh;
+        padding: 2vh;
+        margin: auto;
+    }  
+                                    
+}
+
+
+a{  
+    color: white;
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+}
+
+.a-index{
+    display: block;
+    width: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    background-color: rgba(255, 255, 255, 0.632);
+    border-radius: 10px;
+    padding: 4px 5px;
+    
+    }
+
+
+// .grid{
+//     display:grid;
+//     width: 20px;
+//     height: 20px;
+//     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+//     grid-template-rows: 70% 110% 10%;
+//     padding: 5px 100px 25px 100px;
+// }
+
+.more{
+    display: grid;
+    // grid-template-columns: 32% 32% 32% 32%;
+    // grid-template-rows: 40% 40% 40% 40%;
+    // justify-content: center;
+    grid-template: repeat (4, 20%) / repeat (4, 20%);
+     grid-template-areas: 
+     "cd-1 cd-2 cd-3 cd-4"
+     "cd-5 cd-6 cd-7 cd-8"
+     "cd-9 cd-10 cd-11 cd-12"
+     "cd-13 cd-14 cd-15 cd-16"
+     "cd-17 cd-18 cd-19 cd-20"
+     "cd-21 cd-22 cd-23 cd-24"
+     "cd-25 cd-25 cd-25 cd-25";
+    float: left;
+    justify-content: space-between;
+    margin: 10px 10px 10px 0.3px;
+    //padding: 50px 100px 25px 350px;
+
+      
+}
+    
+.img-1{
+    content: url(../asssets/img/tattooyou-1080.png);
+    width: 32vh;
+    height: 32vh;
+    padding: 2vh;
+    margin: auto;
+}  
+
+
+.cd-2{
+    content: url(../asssets/img/bon_jovi_new_jersey.jpg);
+    width: 32vh;
+    height: 32vh;
+    padding: 2vh;
+    margin: auto;
+   }
+
+
+.cd-3{
+    content: url(../asssets/img/g-n-r-use-your-ilusion-2.jpg);
+    width: 32vh;
+    height: 32vh;
+    padding: 2vh;
+    margin: auto;
+    }
+
+
+.cd-4{
+    content: url(../asssets/img/jm-live-in-los-angeles.jpg);
+    width: 32vh;
+    height: 32vh;
+    padding: 2vh;
+    margin: auto;
+}
+.cd-5{
+    content: url(../asssets/img/ac-dc-high-voltage.jpg);
+    width: 32vh;
+    height: 32vh;
+    padding: 2vh;
+    margin: auto;
+}
+.cd-6{
+    content: url(../asssets/img/beatles-sgt-peppers.jpg);
+        width: 32vh;
+        height: 32vh;
+        padding: 2vh;
+        margin: auto;
+}
+
+.cd-7{
+    content: url(../asssets/img/iron-maiden-fear-of-the-dark.jpg);
+    width: 32vh;
+    height: 32vh;
+    padding: 2vh;
+    margin: auto;
+}
+
+.cd-8{
+    content: url(../asssets/img/nirvana-nevermind.jpg);
+    width: 32vh;
+    height: 32vh;
+    padding: 2vh;
+    margin: auto;
+}
+
+.cd-9{
+    content: url(../asssets/img/oasis-morning-glory.jpg);
+    width: 32vh;
+    height: 32vh;
+    padding: 2vh;
+    margin: auto;
+}
+
+.cd-10{
+    content: url(../asssets/img/pink-floyd-dark-side-of-the-moon.jpg);
+    width: 32vh;
+    height: 32vh;
+    padding: 2vh;
+    margin: 7vh;
+}
+
+.cd-11{
+    content: url(../asssets/img/vanhalen-1984.jpg);
+    width: 32vh;
+    height: 32vh;
+    padding: 2vh;
+    margin: auto;
+}
+
+.cd-12{
+    content: url(../asssets/img/ac-dc-high-voltage.jpg);
+    width: 32vh;
+    height: 32vh;
+    padding: 2vh;
+    margin: auto;
+}
+.cd-13{
+    content: url(../asssets/img/beatles-sgt-peppers.jpg);
+    width: 32vh;
+    height: 32vh;
+    padding: 2vh;
+    margin: auto;
+}
+
+.cd-14{
+    content: url(../asssets/img/bon_jovi_new_jersey.jpg);
+    width: 32vh;
+    height: 32vh;
+    padding: 2vh;
+    margin: auto;
+}
+
+.cd-15{
+    content: url(../asssets/img/iron-maiden-fear-of-the-dark.jpg);
+    width: 32vh;
+    height: 32vh;
+    padding: 2vh;
+    margin: auto;
+}
+
+.cd-16{
+    content: url(../asssets/img/nirvana-nevermind.jpg);
+    width: 32vh;
+    height: 32vh;
+    padding: 2vh;
+    margin: auto;
+}
+
+.cd-17{
+    content: url(../asssets/img/motley-decade-of-decadence.jpg);
+    width: 32vh;
+    height: 32vh;
+    padding: 2vh;
+    margin: auto;
+}
+
+.cd-18{
+    content: url(../asssets/img/oasis-morning-glory.jpg);
+    width: 32vh;
+    height: 32vh;
+    padding: 2vh;
+    margin: auto;
+}
+
+.cd-19{
+    content: url(../asssets/img/g-n-r-use-your-ilusion-2.jpg);
+    width: 32vh;
+    height: 32vh;
+    padding: 2vh;
+    margin: auto;
+}
+
+.cd-20{
+    content: url(../asssets/img/vanhalen-1984.jpg);
+    width: 32vh;
+    height: 32vh;
+    padding: 2vh;
+    margin: auto;
+}
+
+.cd-21{
+    content: url(../asssets/img/jm-live-in-los-angeles.jpg);
+    width: 32vh;
+    height: 32vh;
+    padding: 2vh;
+    margin: auto;
+}
+.cd-22{
+    content: url(../asssets/img/ramones-it-s-alive.jpg);
+        width: 32vh;
+        height: 32vh;
+        padding: 2vh;
+        margin: auto;
+}
+.cd-23{
+    content: url(../asssets/img/steve-vai-passion-warfare.jpg);
+    width: 32vh;
+    height: 32vh;
+    padding: 2vh;
+    margin: auto;
+}
+.cd-24{
+    content: url(../asssets/img/u2-all-that-you-can´t-leave-behind.jpg);
+    width: 32vh;
+    height: 32vh;
+    padding: 2vh;
+    margin: auto;
+}
+.cd-25{
+    content: url(../asssets/img/voodoo-lounge-uncut.jpg);
+    width: 32vh;
+    height: 32vh;
+    padding: 2vh;
+    margin: auto;
+    
+}
+.cd-26{
+    content: url(../asssets/img/ac-dc-high-voltage.jpg);
+    width: 32vh;
+    height: 32vh;
+    padding: 2vh;
+    margin: auto;
+    
+}
+.cd-27{
+    content: url(../asssets/img/iron-maiden-fear-of-the-dark.jpg);
+    width: 32vh;
+    height: 32vh;
+    padding: 2vh;
+    margin: auto;
+
+}
+
+.cd-28{
+    content: url(../asssets/img/nirvana-nevermind.jpg);
+    width: 32vh;
+    height: 32vh;
+    padding: 2vh;
+    margin: auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// @media only screen and (min-width: 300px) {
+//     // .more {
+//     //      grid-template-columns: repeat (2, 15%) / repeat (2, 15%); 
+//     //      float: center;
+//     // }
+    
+// }
+
+// @media only screen and (min-width: 699px) {
+//     // .more{
+//     //     grid-template-columns: repeat (2, 25%) / repeat (2, 25%); 
+//     //     float: center;
+//     // }
+// }
+
+//  @media only screen and (min-width: 1024px) {
+//  }
+
+//  @media only screen and (min-width: 1278px) {
+//  }
+
+// @media only screen and (min-width: 800px) {
+ 
+  
+// }
+
+//  @media only screen and (min-width: 1165px) {
+//     //  .more footer{
+//     //      grid-template-columns: repeat (4, 15%) / repeat (4, 15%); 
+//     //      float:center;
+//     //  }
+  
+//  }
+
+// @media only screen and (min-width: 2000px) {
+
+// }
+
+
+
+
+
